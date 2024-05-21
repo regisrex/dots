@@ -1,0 +1,48 @@
+{
+  "editor.autoClosingBrackets": "always",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 4,
+  "editor.autoClosingComments": "always",
+  "editor.fontWeight": "200",
+  "editor.fontFamily": "'Cascadia Code',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.foldingImportsByDefault": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "always",
+    "source.organizeImports": "always",
+    "source.fixAll": "always"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.foldingImportsByDefault": false,
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "svelte.enable-ts-plugin": true,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.colorTheme": "Noir Poimandres Grey",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSaveMode": "modifications",
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "dart.openDevTools": "flutter",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+}
